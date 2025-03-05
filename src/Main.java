@@ -51,8 +51,8 @@ public class Main {
             throw new NegativniBrIznimka("Pogreška, unešen je negativan broj!");
         }
 
-        if (broj > 1000) {
-            throw new PrevelikBroj("Pogreška, unesite broj manji od 1000!");
+        if (broj > 31) {
+            throw new PrevelikBroj("Pogreška, unesite broj manji od 32!");
         }
 
         int faktorijel = 1;
